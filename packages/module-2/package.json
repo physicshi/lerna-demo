@@ -1,0 +1,33 @@
+{
+  "name": "module-2",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "shigengyu <shigengyu@kuaishou.com>",
+  "homepage": "https://github.com/physicshi/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/module-2.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.corp.kuaishou.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/physicshi/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/physicshi/lerna-demo/issues"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "module-1": "^0.0.0"
+  }
+}
